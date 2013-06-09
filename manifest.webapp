@@ -1,0 +1,19 @@
+{
+  "version": "0.1",
+  "name": "Buzz Lightyear",
+  "description": "Play sounds",
+  "launch_path": "/buzzlightyear",
+  "developer": {
+    "name": "GeekShadow",
+    "url": "https://github.com/GeekShadow"
+  },
+  "icons": {
+    "128": "/buzzlightyear/images/favicon.png",
+    "64": "/buzzlightyear/images/icon-64.png",
+    "48": "/buzzlightyear/images/icon-48.png",
+    "32": "/buzzlightyear/images/icon-32.png",
+    "16": "/buzzlightyear/images/icon-16.png"
+  },
+  "orientation": ["portrait","landscape"],
+  "fullscreen": "false"
+}
