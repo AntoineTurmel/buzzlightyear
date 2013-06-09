@@ -1,5 +1,9 @@
+var buzzsound = new Audio();
+
 function buzzaction(){
-  var buzzsound = new Audio("sounds/0" + getRandomInt(1, 3) + ".ogg" );
+  buzzsound.pause();
+  buzzsound.src = "sounds/0" + getRandomInt(1, 3) + ".ogg";
+  
   buzzsound.load();
   buzzsound.play();
   
