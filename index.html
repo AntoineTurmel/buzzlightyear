@@ -8,7 +8,6 @@
     <p><img src="images/buzz.jpg" alt="" style="width:400px;"/></p>
     <p><button id="buzz" onClick="buzzaction();">Buzz!</button></p>
     <p><a href="manifest.webapp" id="install">Install</a></p>
-  </body>
   <script>
   if (navigator.mozApps) {
       document.getElementById("install").addEventListener("click", function (e) {
@@ -36,5 +35,6 @@
           };
       }, false);
   }
-  </script>  
+  </script>     
+  </body>
 </html>
